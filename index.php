@@ -1,6 +1,5 @@
 <?php
 
-define("token", "6141138107:AAEV1Phzd9uw7PUGW6VIty17WMQ9IMA2DS8");
 define("api", "https://api.telegram.org/bot". token);
 
 // اتصال به دیتابیس
