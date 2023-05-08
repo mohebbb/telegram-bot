@@ -14,6 +14,7 @@ function connect_to_db(){
     return $conn;
 }
 
+
 // دریافت اطلاعات کاربر
 $getUp   = file_get_contents(api."/getUpdates?offset=93468649");
 $arrayUp = json_decode($getUp, true);
