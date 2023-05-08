@@ -114,7 +114,6 @@ function call_for_price($chatId)
 
     while ($row = $result -> fetch_assoc()) {
 
-        // $type;
         switch ($row['type']) {
             case 'vizhe':
                 $type = "ویژه";
